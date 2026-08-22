@@ -27,7 +27,8 @@
 python scripts/problem.py 42 "trapping rain water" \
   --difficulty hard \
   --tags array,two-pointer,dp \
-  --url https://leetcode.com/problems/trapping-rain-water/
+  --url https://leetcode.com/problems/trapping-rain-water/ \
+  # --no-index stops table updates to stop growth of it
 ```
 
 ---
