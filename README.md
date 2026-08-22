@@ -20,10 +20,12 @@
 ```
 
 ---
-## workflow:
+## script:
+> and you have to follow the script, always :)
+
 ```bash
-python scripts/problem.py 42 "Trapping Rain Water" \
-  --difficulty Hard \
+python scripts/problem.py 42 "trapping rain water" \
+  --difficulty hard \
   --tags array,two-pointer,dp \
   --url https://leetcode.com/problems/trapping-rain-water/
 ```
@@ -31,7 +33,7 @@ python scripts/problem.py 42 "Trapping Rain Water" \
 ---
 ## psets/db
 <!-- INDEX:START -->
-| # | Title | Difficulty | Tags | Solution |
+| # | title | difficulty | tags | solution |
 |---|-------|------------|------|----------|
-| 73 | [Certain Problem](https://leetcode.com/problems/) | Hard | array, two-pointer, dp | [solution](0073-certain-problem/solution.py) |
+| 73 | [certain problem](https://leetcode.com/problems/) | hard | array, two-pointer, dp | [solution](0073-certain-problem/solution.py) |
 <!-- INDEX:END -->

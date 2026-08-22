@@ -1,8 +1,8 @@
-# Notes — Certain Problem
+# notes — certain problem
 
-**Approach:**
+**approach:**
 
-**Time complexity:**
-**Space complexity:**
+**time complexity:**
+**space complexity:**
 
-**Gotchas / follow-ups:**
+**gotchas / follow-ups:**

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Regenerate the problem table in README.md by scanning problems/*/problem.md.
+regenerate the problem table in README.md by scanning problems/*/problem.md.
 
-Looks for two markers in README.md:
+looks for two markers in README.md:
     <!-- INDEX:START -->
     <!-- INDEX:END -->
-and replaces everything between them with a fresh table. If the markers
+and replaces everything between them with a fresh table. if the markers
 aren't present, they (and the table) are appended to the end of the file.
 """
 import re
@@ -59,7 +59,7 @@ def build_table() -> str:
                       f"| {number} | {title_cell} | {difficulty} | {tags} | [solution]({sol_link}) |"))
 
     rows.sort(key=lambda r: r[0])
-    header = "| # | Title | Difficulty | Tags | Solution |\n|---|-------|------------|------|----------|"
+    header = "| # | title | difficulty | tags | solution |\n|---|-------|------------|------|----------|"
     body = "\n".join(r[1] for r in rows) if rows else "| _no problems yet_ | | | | |"
     return f"{header}\n{body}"
 
@@ -84,7 +84,7 @@ def main():
         text = text.rstrip() + "\n\n" + block + "\n"
 
     README.write_text(text)
-    print(f"Updated {README.relative_to(ROOT)}")
+    print(f"modified: {README.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

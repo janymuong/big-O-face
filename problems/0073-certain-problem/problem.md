@@ -1,7 +1,7 @@
 ---
 number: 73
-title: "Certain Problem"
-difficulty: Hard
+title: "certain problem"
+difficulty: hard
 tags: [array, two-pointer, dp]
 url: https://leetcode.com/problems/
 ---
