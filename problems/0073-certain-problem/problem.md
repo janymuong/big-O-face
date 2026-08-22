@@ -6,11 +6,11 @@ tags: [array, two-pointer, dp]
 url: https://leetcode.com/problems/
 ---
 
-## Problem
+## problem
 
 <!-- paste the problem statement / examples / constraints here -->
 
-## Examples
+## examples
 
 ```
 Input:

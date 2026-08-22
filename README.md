@@ -35,5 +35,5 @@ python scripts/problem.py 42 "trapping rain water" \
 <!-- INDEX:START -->
 | # | title | difficulty | tags | solution |
 |---|-------|------------|------|----------|
-| 73 | [certain problem](https://leetcode.com/problems/) | hard | array, two-pointer, dp | [solution](0073-certain-problem/solution.py) |
+| 73 | [certain problem](https://leetcode.com/problems/) | hard | array, two-pointer, dp | [solution](problems/0073-certain-problem/solution.py) |
 <!-- INDEX:END -->

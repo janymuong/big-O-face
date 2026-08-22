@@ -53,7 +53,7 @@ def build_table() -> str:
         difficulty = fields.get("difficulty", "")
         tags = ", ".join(fields.get("tags", []))
         url = fields.get("url", "")
-        sol_link = f"{folder.name}/solution.py"
+        sol_link = f"problems/{folder.name}/solution.py"
         title_cell = f"[{title}]({url})" if url else title
         rows.append((int(number) if str(number).isdigit() else 0,
                       f"| {number} | {title_cell} | {difficulty} | {tags} | [solution]({sol_link}) |"))
