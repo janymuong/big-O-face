@@ -79,11 +79,11 @@ tags: [{", ".join(tags)}]
 url: {args.url}
 ---
 
-## Problem
+## problem
 
 <!-- paste the problem statement / examples / constraints here -->
 
-## Examples
+## examples
 
 ```
 Input:
