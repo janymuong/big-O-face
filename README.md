@@ -31,4 +31,7 @@ python scripts/problem.py 42 "Trapping Rain Water" \
 ---
 ## psets/db
 <!-- INDEX:START -->
+| # | Title | Difficulty | Tags | Solution |
+|---|-------|------------|------|----------|
+| 73 | [Certain Problem](https://leetcode.com/problems/) | Hard | array, two-pointer, dp | [solution](0073-certain-problem/solution.py) |
 <!-- INDEX:END -->
