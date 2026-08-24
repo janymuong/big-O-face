@@ -38,4 +38,5 @@ python scripts/problem.py 42 "trapping rain water" \
 |---|-------|------------|------|----------|
 | 21 | [merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | easy | linked-list, recursion | [solution](problems/0021-merge-two-sorted-lists/solution.py) |
 | 73 | [certain problem](https://leetcode.com/problems/) | hard | array, two-pointer, dp | [solution](problems/0073-certain-problem/solution.py) |
+| 393 | [utf-8 validation](https://leetcode.com/problems/utf-8-validation/) | medium | character arrays | [solution](problems/0393-utf-8-validation/solution.py) |
 <!-- INDEX:END -->
