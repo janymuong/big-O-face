@@ -3,6 +3,11 @@
     "linked-list",
     "recursion"
   ],
+  "0028": [
+    "string",
+    "two-pointer",
+    "string-matching"
+  ],
   "0073": [
     "array",
     "two-pointer",
