@@ -37,6 +37,7 @@ python scripts/problem.py 42 "trapping rain water" \
 | # | title | difficulty | tags | solution |
 |---|-------|------------|------|----------|
 | 21 | [merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | easy | linked-list, recursion | [solution](problems/0021-merge-two-sorted-lists/solution.py) |
-| 28 | [first occurrence in a string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | easy | string, two-pointer, string-matching | [solution](problems/0028-first-occurrence-in-a-string/solution.py) |
+| 28 | [find the index of the first occurrence in a string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | easy | string, two-pointer, string-matching | [solution](problems/0028-first-occurrence-in-a-string/solution.py) |
+| 79 | [word search](https://leetcode.com/problems/word-search/) | medium | backtracking, matrix, dfs | [solution](problems/0079-word-search/solution.py) |
 | 393 | [utf-8 validation](https://leetcode.com/problems/utf-8-validation/) | medium | character arrays | [solution](problems/0393-utf-8-validation/solution.py) |
 <!-- INDEX:END -->
