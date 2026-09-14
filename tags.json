@@ -18,6 +18,12 @@
     "matrix",
     "dfs"
   ],
+  "0144": [
+    "tree",
+    "dfs",
+    "stack",
+    "binary-tree"
+  ],
   "0232": [
     "stack",
     "queue",
