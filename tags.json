@@ -30,6 +30,12 @@
     "stack",
     "binary-tree"
   ],
+  "0146": [
+    "hash-map",
+    "linked-list",
+    "doubly-linked-list",
+    "design"
+  ],
   "0232": [
     "stack",
     "queue",
