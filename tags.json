@@ -1,4 +1,9 @@
 {
+  "0020": [
+    "string",
+    "stack",
+    "bracket sequences"
+  ],
   "0021": [
     "linked-list",
     "recursion"
