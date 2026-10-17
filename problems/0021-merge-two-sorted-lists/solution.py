@@ -3,7 +3,7 @@ merge two sorted lists
 https://leetcode.com/problems/merge-two-sorted-lists/
 """
 
-from tyoping import List, Optional 
+from typing import List, Optional 
 
 class ListNode:
     def __init__(self, val=0, next=None):
