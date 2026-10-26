@@ -51,6 +51,11 @@
     "queue",
     "design"
   ],
+  "0242": [
+    "string",
+    "hash table",
+    "sorting"
+  ],
   "0393": [
     "character arrays"
   ]
