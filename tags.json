@@ -23,6 +23,10 @@
     "matrix",
     "dfs"
   ],
+  "0125": [
+    "two-pointer",
+    "string"
+  ],
   "0144": [
     "tree",
     "dfs",
@@ -60,7 +64,17 @@
     "array",
     "two pointers"
   ],
+  "0387": [
+    "hash table",
+    "string",
+    "queue",
+    "counting"
+  ],
   "0393": [
     "character arrays"
+  ],
+  "0704": [
+    "array",
+    "binary search"
   ]
 }
