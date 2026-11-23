@@ -50,6 +50,10 @@
     "doubly-linked-list",
     "design"
   ],
+  "0206": [
+    "singly-linked list",
+    "recursion"
+  ],
   "0217": [
     "array",
     "hash table",
