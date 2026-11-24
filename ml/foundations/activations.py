@@ -1,6 +1,13 @@
 '''
 sigmoid & relu
 https://neetcode.io/problems/sigmoid-and-relu/question
+
+
+activation functions: sigmoid, relu, softmax.
+
+- softmax subtracts max(z) first: shift-invariant, avoids overflow in exp.
+- softmax([z, 0])[0] == sigmoid(z), so it generalizes sigmoid to n classes.
+- relu uses np.maximum (element-wise), not np.max (reduces to a scalar).
 '''
 import numpy as np
 from numpy.typing import NDArray
@@ -18,6 +25,11 @@ class Solution:
     def relu(self, z: NDArray[np.float64]) -> NDArray[np.float64]:
         # formula: max(0, z) element-wise
         return np.maximum(0, z)
+
+    def softmax(self, z: NDArray[np.float64]) -> NDArray[np.float64]:
+        # subtract max for numerical stability (result is unchanged)
+        exp = np.exp(z - np.max(z))
+        return np.round(exp / np.sum(exp), 4)
 
 
 if __name__ == '__main__':
