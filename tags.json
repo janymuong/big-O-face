@@ -28,6 +28,12 @@
     "matrix",
     "dfs"
   ],
+  "0104": [
+    "tree",
+    "depth-first search",
+    "breadth-first search",
+    "binary tree"
+  ],
   "0125": [
     "two-pointer",
     "string"
